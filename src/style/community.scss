@@ -1,0 +1,89 @@
+.community{
+    height: 100vh;
+    color: #fbfbfb;
+    box-sizing: border-box;
+    .nav{
+        color: #000;
+        line-height: 50px;
+        display: -webkit-flex;
+        align-items: center;
+        z-index: 99;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 35px 80px 30px;
+        box-sizing: border-box;
+        .logo{
+            width: 40px;
+            height: 40px;
+        }
+        .kyhl{
+            display: inline-block;
+            color: #fff;
+            font-size: 20px;
+            margin-left: 20px;
+            flex-grow: 1;
+        }
+        ul{
+            display: -webkit-flex;
+            li{
+                flex-grow: 1;
+                text-align: right;
+                padding: 0 30px;
+                a{
+                    color: #fff; 
+                    font-size: 18px;
+                    text-align: center;
+                    font-weight: bold;
+                    cursor: pointer;
+                    &.checked{  //同一级
+                        font-weight: bold;
+                        padding-bottom: 10px;
+                        border-bottom: 2px #fff solid;
+                    }
+                }
+            }
+        }
+    }
+    .container{
+        color: #333;
+        .banner{
+            width: 100%;
+            height: auto;
+        }
+        .title-big{
+            position: absolute;
+            top: 240px;
+            left: 0;
+            width: 100%;
+            font-size: 70px;
+            color: #fff;
+            text-align: center;
+        }
+        .content{
+            text-align: center;
+            padding:50px;
+            h1{
+                font-size: 40px;
+            }
+            img{
+                width: 800px;
+                margin: 30px 0;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+        .home-footer{
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+            p{
+                font-size: 12px;
+                color: #999;
+            }
+        }
+    }
+
+}

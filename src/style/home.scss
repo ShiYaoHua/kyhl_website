@@ -1,0 +1,206 @@
+.home{
+    background-color: #fff;
+    height: 100vh;
+    color: #fff;
+    box-sizing: border-box;
+    .nav{
+        color: #000;
+        line-height: 50px;
+        display: -webkit-flex;
+        align-items: center;
+        z-index: 99;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 35px 80px 30px;
+        box-sizing: border-box;
+        .logo{
+            width: 40px;
+            height: 40px;
+        }
+        .kyhl{
+            display: inline-block;
+            color: #fff;
+            font-size: 20px;
+            margin-left: 20px;
+            flex-grow: 1;
+        }
+        ul{
+            display: -webkit-flex;
+            float: right;
+            li{
+                flex-grow: 1;
+                text-align: right;
+                padding: 0 30px;
+                a{
+                    color: #fff; 
+                    font-size: 18px;
+                    text-align: center;
+                    font-weight: bold;
+                    cursor: pointer;
+                    &.checked{  //同一级
+                        font-weight: bold;
+                        padding-bottom: 10px;
+                        border-bottom: 2px #fff solid;
+                    }
+                }
+            }
+        }
+        
+    }
+    .container{
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        .video-bg{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            top: 0;
+            .my-video{
+                min-width: 100%;
+                min-height: 100%;      
+            }
+        }
+        .content{
+            position: relative;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            .middle{
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                .middle-wrapper{
+                    top: 54%;
+                    left: 50%;
+                    transform: translate(-60%,-55%);
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    .iphone-wrapper{
+                        margin-right: 60px;
+                        .iphone{
+                            width: 250px;
+                            height: 500px;
+                            position: relative;
+                            .iphone-mp4{
+                                position: absolute;
+                                width: 240px;
+                                height: 470px;
+                                margin: 15px 10px;
+                                .my-video{
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                            .iphone-case{
+                                position: absolute;
+                                width: 250px;
+                                height: 500px;
+                            }
+                        }
+                    }
+                    .description{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: flex-start;
+                        h1{
+                            font-size: 60px;
+                            padding: 0;
+                            margin-block-start: 0.67em;
+                            margin-block-end: 0em;
+                            font-weight: bold;
+                            color: #fff;
+                        }
+                        p{
+                            font-size: 35px;
+                            margin-block-start: 10px;
+                            margin-block-end: 10px;
+                        }
+                        .qrcodes{
+                            margin-top: 36px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-start;
+                            align-items: center;
+                            .ios{
+                                width: 150px;
+                                border-radius: 10px;
+                                background-color: #fff;
+                                margin-right: 15px;
+                                cursor: pointer;
+                                position: relative;
+                                color: #333;
+                                font-size: 16px;
+                                .ios-icon{
+                                    display: inline-block;
+                                    width: 25px;
+                                    height: 29px;
+                                    margin-right: 6px;
+                                }
+                            }
+                            .flex-box{
+                                padding: 10px 0;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            .qrcodes-img{
+                               position: absolute;
+                               top: 40px;
+                               left: 0px; 
+                               width: 150px;
+                               height: 150px;
+                               padding: 20px;
+                               background-color: #fff;
+                               border-radius: 0 0 10px 10px;
+                            }
+                            .android{
+                                width: 150px;
+                                border-radius: 10px;
+                                background-color: #fff;
+                                margin-right: 15px;
+                                cursor: pointer;
+                                position: relative;
+                                color: #333;
+                                font-size: 16px;
+                                .android-icon{
+                                    display: inline-block;
+                                    width: 25px;
+                                    height: 29px;
+                                    margin-right: 6px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .home-footer{
+            position: fixed;
+            bottom: 0px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+}
