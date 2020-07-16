@@ -101,7 +101,7 @@ export default function News(){
                         <div className="option" onClick={()=>{
                             
                         }}>
-                            <img className="list-img" src={item.img}/>
+                            {/* <img className="list-img" src={item.img}/> */}
                             <div className="left-box">
                                 <h1 className="f-s-20 line-1">{item.title}</h1>
                                 <p className="line-2">{item.content}</p>

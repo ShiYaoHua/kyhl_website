@@ -72,7 +72,7 @@ export default function Community(){
                 <img src={cooperation}/>
                 <h1>解决健康美容、养生领域用户三大痛点</h1>
                 <img src={cooperation2}/>
-                <h1>公司健康管理体系</h1>
+                {/* <h1>公司健康管理体系</h1>
                 <h2>(一)科学的依据</h2>
                 <p>公司依据医疗健康数据为25岁-65岁的用户提供九大健康管理体系</p>
                 <img src={cooperation3}></img>
@@ -86,7 +86,7 @@ export default function Community(){
                     5、德国Wegame自然疗法   <br/>
                     6、定期检测系统及时时监测系统 <br/>
                 </p>
-                <img src={cooperation4}></img>
+                <img src={cooperation4}></img> */}
             </div>
             <Footer></Footer>
         </div>
